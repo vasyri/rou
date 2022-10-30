@@ -185,62 +185,13 @@ h6.title {
 }
 
 /* slider  */
-
-/* Слайдер */
-.slick-slider {
-}
-/* Слайдер запущен */
-.slick-slider.slick-initialized {
-}
-/* Слайдер с точками */
-.slick-slider.slick-dotted {
-}
-/* Ограничивающая оболочка */
 .slick-list {
   overflow: hidden;
 }
-/* Лента слайдов */
+
 .slick-track {
   display: flex;
   gap: 50px;
-}
-/* Слайд */
-.slick-slide {
-}
-/* Слайд активный (показывается) */
-.slick-slide.slick-active {
-}
-/* Слайд основной */
-.slick-slide.slick-current {
-}
-/* Слайд по центру */
-.slick-slide.slick-center {
-}
-/* Клонированный слайд */
-.slick-slide.slick-cloned {
-}
-/* Стрелка */
-.slick-arrow {
-}
-/* Стрелка влево */
-.slick-arrow.slick-prev {
-}
-/* Стрелка вправо */
-.slick-arrow.slick-next {
-}
-/* Стрелка не активная */
-.slick-arrow.slick-disabled {
-}
-/* Точки (булиты) */
-.slick-dots {
-}
-.slick-dots li {
-}
-/* Активная точка */
-.slick-dots li.slick-active {
-}
-/* Элемент точки */
-.slick-dots li button {
 }
 
 /* Header  */
@@ -314,12 +265,11 @@ h1.title {
 
 /* benefits & about & services CONTAINER  */
 .section-container1 {
-  background: url("/img/triple-section_bg.jpg") 0 0 no-repeat;
+  background: url("../img/triple-section_bg.jpg") 0 0 no-repeat;
 }
 
 /* Benefits  */
 .benefits {
-  /* background: url("/img/benefits_bg.jpg"); */
   position: relative;
   padding: 182px 0;
 }
@@ -452,7 +402,7 @@ h4.services__title {
 /* project  */
 .projects {
   padding: 182px 0;
-  background: url("/img/project_bg.jpg") 0 0 no-repeat;
+  background: url("../img/project_bg.jpg") 0 0 no-repeat;
 }
 
 .project__list {
@@ -494,7 +444,7 @@ p.project__item-subtitle {
 /* team & testimonial CONTAINER  */
 
 .section__container2 {
-  background: url("/img/double-section-bg.jpg") 0 0 no-repeat;
+  background: url("../img/double-section-bg.jpg") 0 0 no-repeat;
 }
 
 /* team  */
@@ -529,7 +479,6 @@ p.project__item-subtitle {
 /* testimonial  */
 .testimonial {
   padding: 0 0 192px;
-  /* background: url("/img/slider_bg.png"); */
 }
 
 .testimonial__subtitle {
@@ -602,7 +551,7 @@ h2.testimonial__title {
 /* contact us */
 .contact {
   padding: 182px 0;
-  background: url("/img/contact_bg.jpg") 0 0 no-repeat;
+  background: url("../img/contact_bg.jpg") 0 0 no-repeat;
 }
 h2.contact__title {
   margin: 0 auto 80px;
@@ -665,7 +614,7 @@ h2.contact__title {
 
 /* blog */
 .blog {
-  background: url("/img/blog_bg.jpg") 0 0 no-repeat;
+  background: url("../img/blog_bg.jpg") 0 0 no-repeat;
   padding: 135px 0 250px;
 }
 
